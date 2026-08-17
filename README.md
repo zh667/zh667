@@ -28,7 +28,7 @@ I like tools best when they are **honest about their own state** — no hidden c
 
 <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zh667&show_icons=true&hide_border=true&theme=github_dark">
-    <img src="https://github-readme-stats.vercel.app/api?username=zh667&show_icons=true&hide_border=true" width="500" alt="GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+    <img src="./profile/stats-light.svg" width="500" alt="GitHub stats" />
   </picture>
 </p>
