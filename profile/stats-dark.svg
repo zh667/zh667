@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">zh667&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 177, Total Commits  (last year) : 540, Total PRs: 97, Total Issues: 49, Contributed to (last year): 9</desc>
+        <desc id="descId">Total Stars Earned: 191, Total Commits  (last year) : 540, Total PRs: 97, Total Issues: 49, Contributed to (last year): 9</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 79.25430348217434;
+        stroke-dashoffset: 78.18235541580239;
       }
     }
   
@@ -137,7 +137,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >177</text>
+      >191</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
