@@ -1,30 +1,45 @@
 # Hi, I'm Heng 🧭
 
-**C#/.NET developer — and, off the clock, a game-mod and developer-tooling author.**
+**C# / .NET · AI agents · Developer tools · Survivalcraft mods**
 
-I care about software that keeps working after the demo: code that runs on someone else's machine, in someone else's save file, a year later. Most of what I publish comes from a small itch in something I actually use every day — a game missing a map, an AI subscription with no idea where the tokens went — and stops only when the thing is stable enough that I forget it is mine.
+I build tools around things I use: understanding AI usage, turning an agent into a useful companion, and adding new ways to explore and play in Survivalcraft. My projects range from .NET applications and local developer tools to game mods, animation systems, and world generators.
 
-🎮 **Currently building:** Survivalcraft mods — world generation · minimaps & waypoints · storage and logistics · dual-target `.scmod` (plugin) and `.netmod` (multiplayer) releases  
-🧰 **Also building:** local-first developer tooling — AI token accounting and usage control planes · agent-skill auditing · small desktop utilities  
-🛠 **Working with:** C# / .NET · desktop apps · SQL Server · TypeScript & Node when the tool calls for it · Linux for everything in between
+主要做 C#/.NET、AI Agent 与开发工具，也持续开发《生存战争》的玩法模组和地图工具。
 
----
-
-### 🎮 Survivalcraft mods
-
-- **[SurvivalCraftTravelMap](https://github.com/zh667/SurvivalCraftTravelMap)** — explored-terrain minimap, waypoints and travel for Survivalcraft, with a texture-cached renderer that survives long sessions and deep caves
-- **[SurvivalcraftRuins](https://github.com/zh667/SurvivalcraftRuins)** — 20 explorable world-gen structures with deterministic placement, tiered loot pools and beast ambushes, plus a per-world ledger so structures stay whole across versions
-- **[SurvivalcraftStash](https://github.com/zh667/SurvivalcraftStash)** — a storage and logistics suite: backpacks · tiered chests · one-key sorting · a storage network, shared source compiled into both mod targets
-
-### 🧰 AI & developer tooling
-
-- **[TokenLedger](https://github.com/zh667/TokenLedger)** — relay-site attributed token usage for DeepSeek Harness: zero config, no credentials, reads what is already on disk
-- **[usageplane](https://github.com/zh667/usageplane)** — one local-first control plane for AI coding usage, subscription limits and relay account assets across devices
-- **[skill-auditor](https://github.com/zh667/skill-auditor)** — a static, evidence-graded auditor for Agent Skills across Claude and Codex, so a skill's claims can be checked instead of trusted
+**Working with:** C# / .NET · TypeScript / JavaScript · Python · React / Next.js · PostgreSQL · Windows & Linux
 
 ---
 
-I like tools best when they are **honest about their own state** — no hidden credentials, no silent failures, and a log you can read when something goes wrong. That is the same standard I try to hold in game mods and in production code alike.
+### 🧰 AI agents & developer tools
+
+| Project | What I'm building |
+| --- | --- |
+| **[TokenLedger](https://github.com/zh667/TokenLedger)** | Token accounting for DeepSeek Harness, attributed to the relay that served each request. Project/model breakdowns, subscription windows, and cost estimates. |
+| **[UsagePlane](https://github.com/zh667/usageplane)** | A local-first AI usage console spanning multiple devices, coding tools, subscription limits, and relay accounts. In active development. |
+| **[MES Copilot](https://github.com/zh667/Mes-Agent)** | A manufacturing operations agent platform for MES queries, anomaly analysis, quality traceability, and SOP/RAG answers. ASP.NET Core, Next.js, and PostgreSQL. |
+| **[GitHub Metric Auditor](https://github.com/zh667/github-metric-auditor)** | Reproducible analysis of repository activity, with preserved evidence, coverage checks, and explicit uncertainty. |
+
+### 🎮 Survivalcraft: gameplay, companions & worlds
+
+| Project | What it does |
+| --- | --- |
+| **[ScCsgoKnives](https://github.com/zh667/ScCsgoKnives)** | A CS2 weapon mod covering knives, firearms, and throwables, with draw/inspect animations, first- and third-person handling, skins, and survival crafting. |
+| **[SurvivalCraftTravelMap](https://github.com/zh667/SurvivalCraftTravelMap)** | Persistent exploration maps, cave layers, waypoints, death markers, and safe travel. Available for both plugin (`.scmod`) and multiplayer (`.netmod`) editions. |
+| **[SurvivalCraftGenius](https://github.com/zh667/SurvivalCraftGenius)** | An AI companion project: summon it, talk to it, and let it plan actions such as following, exploring, mining, and building. |
+| **[Real World Generator](https://github.com/zh667/survivalcraft-real-world-generator)** | An early-stage standalone tool that turns OpenStreetMap roads, buildings, and waterways into Survivalcraft worlds. |
+
+**More from the same world:**
+
+- [ScCsgoBox](https://github.com/zh667/ScCsgoBox) — rolling weapon cases, reward previews, and integrations with other mods.
+- [SurvivalcraftStash](https://github.com/zh667/SurvivalcraftStash) — backpacks, tiered storage, sorting, and a searchable storage network.
+- [SurvivalcraftRuins](https://github.com/zh667/SurvivalcraftRuins) — explorable structures, deterministic generation, traps, and loot.
+- [SurvivalcraftLangPack](https://github.com/zh667/SurvivalcraftLangPack) · [SurvivalcraftDynamicLighting](https://github.com/zh667/SurvivalcraftDynamicLighting) — language support and dynamic lighting.
+
+---
+
+I care about what happens **after the demo**: input that behaves during combat, saves that survive an update, and usage numbers that explain where they came from. I try to make that visible through regression tests, readable diagnostics, and release notes that distinguish automated checks from in-game verification.
+
+Found a bug or have an idea? Open an issue in the relevant repository — **中文 / English** are both welcome.
 
 <p align="left">
   <picture>
